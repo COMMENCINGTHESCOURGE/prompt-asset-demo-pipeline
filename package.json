@@ -2,13 +2,14 @@
   "name": "prompt-asset-demo-pipeline",
   "version": "0.1.0",
   "description": "End-to-end demo: writer -> drawer -> sound -> combined output",
+  "keywords": ["prompt-asset", "manifold", "field-computation", "demo", "pipeline", "guinea-pig-trench"],
   "main": "src/index.ts",
   "bin": {
     "prompt-asset-demo": "./src/cli.ts"
   },
   "scripts": {
     "build": "tsc",
-    "test": "vitest run --passWithNoTests",
+    "test": "vitest run",
     "demo": "node dist/cli.ts"
   },
   "dependencies": {
